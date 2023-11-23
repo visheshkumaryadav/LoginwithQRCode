@@ -1,0 +1,203 @@
+/* mat-card{
+  padding:3.50%;
+  padding-top: 2.20%;
+  top: 15%;
+    max-width:29.10%;
+    height: 65%;
+    position: absolute;
+    color: #0056b3;
+    margin-left: 1%;
+    
+  }
+  .AA{
+    width: 68.39%;
+    height: 99.90%;
+    position: absolute;
+    margin-left: 31.60%;
+   
+  }
+  .form-group {
+    margin-bottom: 5%;
+  }
+  .error-message {
+    color: red;
+    margin-top: 0.50%;
+  }
+  .form-group label{
+    position: absolute;
+    top: 27%;
+    left: 7%;
+    transition: top .3s; 
+  }
+  .form-group input:valid ~ label,.form-group input:focus ~ label{
+    top: 23%;
+    background-color:#fff;
+    color: red;
+    font-size: 75%;
+   transform: translateX(10px) translateY(-7px);
+  }
+  input {
+    width:120%;
+    height: 50px;
+    margin-left:-30px;
+    border: 2px solid #4a0ce7;
+    border-radius: 3px;
+  }
+  button {
+    background-color: #405d7b;
+    color: #fff;
+    border: none;
+    padding: 5% 20%;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20%;
+  }
+  small{
+    margin-left: 10%;
+    margin-top: 14%;
+  }
+  h3,p{
+    text-align: center;
+  }
+  h6{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 3%;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .Q{
+    width: 120%;
+    border: 1px solid black;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-left: -30px;
+    display: flex;
+    cursor: pointer;
+  }
+  .R{
+    padding-left: 3%;
+    margin-top: 3%;
+ }
+ img{
+  width: 31.61%;
+  height: 99.90%;
+  position: absolute;
+ 
+ } */ 
+
+
+ mat-card{
+  padding:35px;
+   border-right: 2px solid black;
+    width:31.50%;
+    height: 100%;
+    position: absolute;
+    color: #0056b3;
+    
+    @media (max-width: 1124px) {
+      height: 100%;
+      width: 100%;
+       }
+  }
+
+  .loginfield{
+    @media (max-width: 1124px) {
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+  }
+  }
+
+
+  .AA{
+    width: 68.39%;
+    height: 99.90%;
+    position: absolute;
+    margin-left: 31.60%;
+    @media (max-width: 1124px) {
+      display: none;
+  }
+   
+  }
+  .form-group {
+    margin-bottom: 5%;
+  }
+  .error-message {
+    color: red;
+    margin-top: 0.50%;
+  }
+  /* .form-group label{
+    position: absolute;
+    top: 26%;
+    left: 7%;
+    transition: top .3s; 
+    @media (max-width: 1124px) {
+      top: 22%;
+      left: 5%;
+   }
+  }
+  .form-group input:valid ~ label,.form-group input:focus ~ label{
+    top: 22%;
+    background-color:#fff;
+    color: red;
+    font-size: 75%;
+   transform: translateX(10px) translateY(-7px);
+   @media (max-width: 768px) {
+    top: 19%;
+ }
+  } */
+  input {
+    width:100%;
+    height: 50px;
+    margin-left:-10px;
+    border: 2px solid #4a0ce7;
+    border-radius: 3px;
+  }
+  button {
+    background-color: #405d7b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 3% 12%;
+    margin-left: 23%;
+  }
+  small{
+    margin-left: 10%;
+    margin-top: 14%;
+  }
+  h3,p{
+    text-align: center;
+  }
+  h6{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 3%;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .Q{
+    width: 100%;
+    border: 1px solid black;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-left: -10px;
+    display: flex;
+    cursor: pointer;
+  }
+  .R{
+    padding-left: 3%;
+    margin-top: 3%;
+ }
+ /* img{
+  width: 31.61%;
+  height: 99.90%;
+  position: absolute;
+  @media (max-width: 1124px) {
+   width: 100%;
+   }
+ } */
+ 

@@ -1,0 +1,35 @@
+<div>
+  <img class="AA"
+    src="https://th.bing.com/th?id=OIP.KoGxrXMRIEBppovFFGFCvQHaH_&w=240&h=259&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+    alt="">
+  <div>
+    <!-- <img src="https://wallpaperaccess.com/full/1900857.jpg" alt=""> -->
+    <mat-card>
+      <h3>Login page</h3> <br>
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+           <label for="mobileNumber">Mobile Number:</label> 
+          <input type="tel" id="mobileNumber" name="mobileNumber" [(ngModel)]="mobileNumber" required maxlength="10"
+            pattern="[6-9][0-9]{9}" />          
+        </div> 
+        <div *ngIf="error" class="error-message">
+          Incorrect mobile no! Please try again.
+        </div>
+        <button type="submit">Proceed</button>
+      </form>
+      <br>
+      <p>OR</p>
+      <div class="Q">
+        <h6>QR Code generates</h6>
+        <div class="R">
+          <qrcode elementType="svg" (qrCodeURL)="onCodeChange($event)" [width]="50"
+            qrdata="http://localhost:4200/dashboard"></qrcode>
+        </div>
+        <small><a  routerLink="/qrcode">Click here</a></small>
+      </div>
+      <!-- <br>
+      <a routerLink="/signup" style="font-weight: bold; color: green; cursor: pointer; text-decoration: none;">New User?Click to
+        Signup</a> -->
+    </mat-card>
+  </div>
+</div>

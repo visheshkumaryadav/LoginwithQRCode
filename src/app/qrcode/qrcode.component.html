@@ -1,0 +1,21 @@
+<div>
+  <img class="AA"
+    src="https://th.bing.com/th?id=OIP.KoGxrXMRIEBppovFFGFCvQHaH_&w=240&h=259&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+    alt="">
+    <!-- <div>
+      <img src="https://wallpaperaccess.com/full/1900857.jpg" alt=""> -->
+  <mat-card>
+    
+      <h4>Login with QR Code </h4>
+      <div class="R">
+        <qrcode elementType="svg" (qrCodeURL)="onCodeChange($event)" [width]="250"
+          qrdata="http://localhost:4200/dashboard"></qrcode>
+      </div>
+      <div class="login-container">
+          <label for="mobileNumber">Login through Mobile Number:</label>
+          <input type="tel" id="mobileNumber" placeholder="Enter username" routerLink="/username" />
+        </div>  
+  
+  </mat-card>
+  
+</div>

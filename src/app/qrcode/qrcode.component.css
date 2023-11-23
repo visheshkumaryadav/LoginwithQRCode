@@ -1,0 +1,58 @@
+.login-container {
+   position: absolute;  
+   top:55%;
+   left: 10%;
+   width: 80%;
+   padding: 3% 3%;
+   background-color: lightblue;
+  }
+  .loginfield{
+    @media (max-width: 1124px) {
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+  }
+}
+  .AA{
+    width: 68.39%;
+    height: 99.90%;
+    position: absolute;
+    margin-left: 31.60%;
+    position: absolute;
+    @media (max-width: 1124px) {
+      display: none;
+  }
+  }
+  input {
+    width: 100%;
+    padding: 3%;
+    border: 1px solid #4a0ce7;
+    border-radius: 3px;
+  }
+  h4{
+    position: absolute;
+    margin-left: 18%;
+    top: 5%;
+  }
+  mat-card{
+    position: absolute;
+    width: 31.50%;
+    height: 99.90%;
+    padding: 3% 3%;
+    @media (max-width: 1124px) {
+      height: 100%;
+      width: 100%;
+       }
+  }
+  .R{
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+  /* img{
+     width: 31.61%;
+    height: 99.90%;
+    position: absolute;
+    @media (max-width: 1124px) {
+      width: 100%;
+      }
+   } */
